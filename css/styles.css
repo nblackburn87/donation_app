@@ -1,6 +1,8 @@
 .form-container {
     position: relative;
-    padding-bottom: 120%;
+    padding-bottom: 100%;
+    margin-bottom: 0px;
+    border-bottom: 1px solid transparent;
     height: 0;
     overflow: hidden;
 }
@@ -15,4 +17,8 @@
 
 .tagline {
     text-align: center;
+}
+
+body {
+    border: 1px solid transparent;
 }
